@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>B-Delight Restaurant Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>B-Delight Restaurant</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#hours">Hours</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#reservation">Reservation</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <img src="Rest.jpg" alt="Restaurant Image" id="restaurant-img">
+            <p>Welcome to B-Delight Restaurant! Enjoy our delicious dishes in a cozy atmosphere. The best restaurant for everyone around Uganda</p>
+        </section>
+    </main>
+    <main>
+  <section id="menu">
+            <h2>Menu</h2>
+            <table>
+                <caption>Our Menu</caption>
+                <tr>
+                    <div class="menu-item">
+                        <img src="food1.jpg" alt="Item 1">
+                        <img src="food2.jpg" alt="Item 2">
+                        <img src="food3.jpg" alt="Item 3">
+                      </div>
+                    <th colspan="2">Appetizers</th>
+                </tr>
+                <tr>
+                    <td>Pizza</td>
+                    <td>$10.5</td>
+                    <td>Tacos</td>
+                    <td>$5.5</td>
+                    <td>Rolex</td>
+                    <td>$2.5</td>
+                    <td>Chapatti</td>
+                    <td>$1.5</td>
+                </tr>
+                <th colspan="2">Main Courses</th>
+                </tr>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>$15</td>
+                    <td>Chips</td>
+                    <td>$7.5</td>
+                    <td>Beef</td>
+                    <td>$10</td>
+                    <td>Chicken</td>
+                    <td>$9</td>
+                </tr>
+                <th colspan="2">Desserts</th>
+                </tr>
+                <tr>
+                    <td>Fresh Mangos</td>
+                    <td>$5</td>
+                    <td>Orange Juice</td>
+                    <td>$3</td>
+                    <td>Coctail</td>
+                    <td>$8</td>
+                    <td>Soda</td>
+                    <td>$1</td>
+                </tr>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <section id="reservation">
+        <h2>Reservation</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="date">Date of Reservation:</label>
+            <input type="date" id="date" name="date" required><br><br>
+    
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests" required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="more than 5">more than 5</option>
+            </select><br><br>
+    
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" rows="4" cols="40"></textarea><br><br>
+    
+            <input type="submit" value="Submit">
+            
+        </form>
+    </section>
+    
+
+    <footer id="contact">
+        <p>&copy; 2023 B-Delight Restaurant. Designed by Your Ngoy Bitingingwa Jonathan</p>
+        <p>Kampala Road, Uganda | Phone: +256 789642975</p>
+    </footer>
+</body>
+</html>
